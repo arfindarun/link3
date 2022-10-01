@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 130px;
+}
+
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: #FD5602;
+    
+}
+.nav a{
+    color: #fff;
+    font-weight: 600;
+    /* display: flex; */
+    margin-right: 218px;
+    float: right;
+    margin-top: 12px;
+}
+.nav a:hover{
+    text-decoration: none;
+}
+
+.fmenu{
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    left: 0px;
+    top: 40px;
+    right: 0px;
+
+    background-color:#fff;
+ 
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 75%;
+    margin: auto;
+    margin-top: 20px;
+   
+    
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu li{
+    margin: 10px;
+    list-style: none;
+}
+
+.menu a{
+    color: #FD6519;
+    font-size: 15px;
+    padding: 5px 5px;
+    
+    
+}
+.menu a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #FF0000;
+    
+}
+
+.logo{
+    display: flex;
+    width: 65px;
+    height:65px;
+    cursor: pointer;
+}
+.home{
+    border-bottom: 2px solid #FF0000;
+}
+li:nth-last-child(1){
+    background-color: #FD6519;
+    padding: 7px 11px;
+    border-radius: 100px;
+    
+}
+
+ul li .customer{
+    color: #fff;
+}
+
+<!-- slideshow css -->
+
+            * {box-sizing: border-box;}
+            body {font-family: Verdana, sans-serif;}
+            .mySlides {display: none;}
+            img {vertical-align: middle;}
+
+            /* Slideshow container */
+            .slideshow-container {
+            width: 90%;
+            position: relative;
+            margin: 0 auto;
+            /* margin-left: 10%; */
+            }
+
+            /* Caption text */
+            .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+            }
+
+            /* Number text (1/3 etc) */
+            .numbertext {
+            color: #0b0b0b;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+            }
+
+            /* The dots/bullets/indicators */
+            .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+            cursor: pointer;
+            }
+
+            .active {
+            background-color: #717171;
+            }
+
+            /* Fading animation */
+            .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+            }
+
+            @keyframes fade {
+            from {opacity: .4} 
+            to {opacity: 1}
+            }
+
+            /* On smaller screens, decrease text size */
+            @media only screen and (max-width: 300px) {
+            .text {font-size: 11px}
+            }
+
+            /* section two css start */
+
+            .sec2{
+                height: 500px;
+                width: 100%;
+            }
+
+            .sec2 h1{
+                font-size: 40px;
+                margin-top: 80px;
+                font-weight: bold;
+                line-height: 0%;
+            }
+
+            .sec2_button{
+                margin-top: 80px;
+                display: flex;
+            }
+
+            .sec2_button .button1{
+                padding: 15px 50px;
+                border-top-left-radius: 100px;
+                border-bottom-left-radius: 100px;
+                border: none;
+                background-color: #FD5602;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                margin-left: 38%;
+                display: inline-block;
+            }
+
+            .sec2_button .button2{
+                padding: 15px 50px;
+                border-top-right-radius: 100px;
+                border-bottom-right-radius: 100px;
+                border: none;
+                background-color: #F2F3F4;
+                color: #535252;
+                font-size: 20px;
+                cursor: pointer;
+                margin-left: -5px;
+                transition: .3s;
+            }
+
+            .sec2_button .button2:hover{
+                color: #FD6519;
+            }
+
+            .packeg{
+                max-width: 75%;
+                margin: auto;
+                margin-top: 40px;
+                display: flex;
+            }
+            
+            .packeg .div1{
+                width: 30%;
+                /* text-align: center; */
+                align-items: left;
+                background-color: #F2F3F4;
+                height: 130px;
+                padding: 10px 10px;
+                margin: 10px;
+                /* display: flex; */
+            }
+
+            .packeg h4{
+                color: #FD5602;
+                margin-top: 10px;
+            }
+
+            .packeg h2{
+                font-size: 30px;
+            }
+
+            .chevron{ 
+                width: 40px;
+                height: 40px;
+                background-color: #FF8303;
+                border-radius: 50%;
+                margin: -10px 290px;
+                /* display: flex; */
+                cursor: pointer;
+                color: white;
+                font-size: 25px;
+                text-align: center;
+            }
+
+            .result_view{
+                padding: 10px 20px;
+                margin-top: 50px;
+                border-radius: 3px;
+                background-color: white;
+                border: 2px solid #FD5602;
+                color: black;
+                font-size: 15px;
+                transition: .3s;
+                cursor: pointer;
+            }
+
+            .result_view:hover{
+                background-color: #FD5602;
+                color: #fff;
+            }
+             /* section two css end */
+
+
+             /* section three css start */
+
+             .sec3{
+                width: 100%;
+                height: 400px;
+                background-color: #F5F5F5;
+             }
+
+             .sec3 h1{
+                display: inline-block;
+                margin-top: 50px;
+                font-weight: bolder;
+                font-size: 40px;
+             }
+
+             .sec3 .otrs{
+                color: #FD5602;
+             }
+
+             .sec3 p{
+                color: #676767;
+                font-size: 19px;
+                margin-top: 20px;
+             }
+
+              /* section three css start */
+             .select{
+                width: 100%;
+                margin-top: 30px;
+             }
+
+              .select1 select{
+                width: 32%;
+                height: 35px;
+                margin-top: 15px;
+                padding: 10px;                
+                background-color: #fff;
+                border: none;
+                border: 1px solid #d5d2d2;
+                border-radius: 3px;
+              }
+
+              .select2 select{
+                width: 51%;
+                height: 35px;
+                margin-top: 15px;
+                padding: 10px;               
+                background-color: #fff;
+                border: 1px solid #d5d2d2;
+                border-radius: 3px;
+              }
+              .select1{
+                margin-left: 25%;
+              }
+
+              .select2{
+               margin-left: 51%;
+                margin-top: -69px;
+              } 
+
+              .dstct{
+                color: #676767;
+              }
+
+              /* search area css */
+
+              .chk_area{
+                width: 125px;
+                height: 75px;
+                background-color: #FD5602;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                margin-top: 35px;
+                font-size: 15px;
+                font-weight: lighter;
+                cursor: pointer;
+              }
+
+              /* .chk_area p{
+                margin-top: -8px;
+                color: #fff;
+                font-size: 15px;
+              } */
+
+              .chk_area:hover{
+                color: #0b0b0b;
+              }
+
+              .chk_area i{
+                margin-top: 15px;
+              }
+              /* sec3 css end */
+
+
+
+              /*sec4 css start*/
+              .sec4{
+                width: 100%;
+                height: 600px;
+              }
+
+              .sec4 h1{
+                display: inline-block;
+                margin-top: 50px;
+                font-weight: bolder;
+                font-size: 40px;
+             }
+
+             .sec4 .otrs{
+                color: #FD5602;
+             }
+
+             .sec4 img{
+                width: 590px;
+                height: 350px;
+                border-radius: 35px;
+                margin-top: 70px;
+                margin-left: 20px;
+             }
+             /*sec4 css end*/
+
+             /*sec5 css start*/
+             .sec5{
+                width: 100%;
+                height: 95vh;
+                background-color: #F5F5F5;
+                display: flex;
+             }
+
+            .mx{
+                /* max-width: 75%;
+                margin: auto; */
+                display: flex;
+                padding-top: 6%;
+                margin-left: 16%;
+            }
+
+            .mx p{
+                font-size: 20px;
+                font-weight: 700;
+                /* letter-spacing: .0090px; */
+            }
+
+            .mx .sec5_div1 img{
+                margin-top: 40px;
+            }
+
+            .mx .sec5_div1 .result_view{
+                background-color: #FD5602;
+                margin-left: -50px;
+                color: #F5F5F5;
+            }
+
+            .mx .sec5_div1 .result_view:hover{
+                color: #0b0b0b;
+            }
+
+            .sec5 h1{
+                display: inline-block;
+                /* margin-top: 80px; */
+                font-weight: bold;
+                font-size: 30px;
+             }
+
+            .otrs{
+                color: #FD5602;
+                
+             }
+
+             .down{
+                margin-left: 200px;
+                color: #FD5602;
+             }
+            .blk{
+                margin-top: 20px;
+             }
+
+             .sec5_div2{
+                display: flex;
+                margin-top: 170px;
+                margin-left: 150px;
+             }
+
+             .sec5_div2 .img1{
+                width: 160PX;
+                height: 200px;
+                background-color: #FFFFFF;
+                margin-left: 25px;
+                align-items: center;
+                border: 1px solid #dcd7d7;
+                cursor: pointer;
+             }
+
+             .sec5_div2 .img1 img{
+                width: 60px;
+                margin-top: 30px;
+                margin-bottom: 25px;
+            
+            }
+
+            .sec5_div2 .img1 a{
+                font-size: 10px;
+                color: #0b0b0b;
+                font-weight: lighter;
+            }
+
+            .sec5_div2 .img1:hover{
+                background-color: #F2F3F4;
+                text-decoration: none;
+            }
+
+            .sec5_div2 .img1 a:hover{
+                text-decoration: none;
+            }
+
+
+            /* section 6 css start */
+            .sec6{
+                width: 100%;
+                height: 90vh;
+            }
+
+            .sec6 img{
+                width: 100%;
+                height: 100%;
+            }
+            /* section 6 css end */
+
+
+
+
+            /* section 7 css star */
+            .sec7{
+                width: 100%;
+                height: 780px;
+                background-color: #FFFFFF;
+            }
+
+            .sec7 .mx{
+                max-width: 85%;
+                height: 100vh;
+                /* border: 5px solid blue; */
+                margin: auto;
+            }
+
+            .sec7 .div1{
+                width: 45%;
+
+            }
+
+            .sec7 h1{
+                display: inline-block;
+                margin-top: -20px;
+            }
+            .sec7 .div1 p{
+                font-weight: normal;
+                font-size: 17px;
+                margin-top: 80px;
+                color: #212529;
+                margin-bottom: 20px;
+
+            }
+
+            .sec7 .div1 label{
+                color: #676767;
+            }
+
+            .sec7 .div1 input{
+                width: 99%;
+                height: 40px;
+                font-size: 15px;
+                background-color: #F2F3F4;
+                padding-left: 5px;
+                margin-top: 10px;
+                border: 1px solid #CED4DA;
+                border-radius: 5px;
+            }
+            .sec7 .div1 textarea{
+                width: 100%;
+                background-color: #F2F3F4;
+                height: 100px;
+                margin-top: 10px;
+                border: 1px solid #CED4DA;
+                border-radius: 5px;
+            }
+
+            .sec7 .div1 input:nth-last-child(1){
+                width: 90px;
+                height: 40px;
+                border: 2px solid #FD5602;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+                /* font-weight: 600; */
+                transition: .3s;
+            }
+
+            .sec7 .div1 input:nth-last-child(1):hover{
+                background-color: #FD5602;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .sec7 .div2{
+                margin-left: 70px;
+                width: 45%;
+            }
+            .sec7 .div2 img{
+                width: 97%;
+                height: 500px;
+                /* padding: 8%; */
+                border-radius: 5%;
+                box-shadow:-1px 3px 3px 6px #bbb;
+                margin-top: 43px;
+            }
+            /* section 7 css end */
+
+
+
+
+            /* section 8 css start */
+            .sec8{
+                width: 100%;
+                height: 500px;
+                background-color: #F2F3F4;
+            }
+
+            .sec8 .mxw{
+                max-width: 80%;
+                margin: auto;
+                padding-top: 60px;
+                display: flex;
+            }
+
+            .sec8 .div1{
+                width: 35%;
+            }
+            .sec8 .div1 img{
+                width: 80px;
+            }
+            .sec8 .div1 h1{
+                font-size: 20px;
+                margin-top: 30px;
+                color: #2E2C2C;
+                font-weight: bold;
+            }
+            .sec8 .div1 .p1{
+                color: #676767;
+            }
+            .sec8 .div1 h4{
+                color: #2E2C2C;
+                font-weight: lighter;
+            }
+            .sec8 .div1 .p2{
+                color: #676767;
+                margin-top: 5px;
+            }
+            .sec8 .div1 .p3{
+                margin-top: -18px;
+                color: #FB7532;
+            }
+            .sec8 .div1 p{
+                font-size: 14px;
+            }
+
+            .sec8 .div2 .page {
+                width: 300px;
+                height: 200px;
+                background-color: blue;
+            }
+
+            .sec8 .div2 .page a{
+                padding: 10%;
+                border: 1px solid red;
+            }
+
+            .blacker{
+                background-color: #fff;
+                color: black;
+                top: 0px;
+                transition: .1s;
+            }
+
+            .blacker>.menu a{
+                color: #072F5F;
+            }
+
+            .blacker>.menu .customer{
+                color: #fff;
+            }
+            
+
+            
+            
+            /* section 8 css end */
+
+            .cv{
+                width: 50px;
+                height: 300px;
+                background-color: #FD5602;
+                border-radius: 50px;
+                position: fixed;
+                right: 10px;
+                top: 25%;
+                color: #fff;
+                line-height: 12px;
+                font-size: 6px;
+                text-align: center;
+                padding-top: 5px;
+            }
+
+            .cv a i{
+                font-size: 40px;
+                /* color: #04AA6D; */
+                padding: 16px 5px;
+                background-color: #04AA6D;
+                /* border-radius: 50px; */
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+                margin-top: 12px;
+                transition: .3s;
+
+            }
+
+            .cv a i:hover{
+                background-color: #07764d;
+                color: #FD5602;
+            }
+
+
+
+
+
+
+
